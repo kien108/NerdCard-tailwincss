@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+   .btn {
+      @apply text-20 px-6 py-[6px] font-bold mt-[27px] bg-purple-500 rounded-[14px] cursor-pointer hover:bg-pink-500 transition-all;
+   }
+
+   .card {
+      @apply mx-[20px] tablet:mx-[40px] font-bold flex flex-col items-center justify-center gap-[20px] bg-gradient-to-b from-white/40 shadow-md rounded-[24px] px-[10px] py-[40px];
+   }
+
+   .content-check {
+      @apply flex items-center gap-6 mb-[51px];
+   }
+
+   .menu--open .menu {
+      @apply scale-100;
+   }
+}
